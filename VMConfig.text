@@ -1,0 +1,29 @@
+package com.tavinhcloud;
+
+public class VMConfig {
+    private String name;
+    private String operatingSystem;
+    private int ramGB;
+    private int cpuCores;
+    private int diskSizeGB;
+    private String isoPath;
+    
+    // Getters e Setters
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    
+    public String getOperatingSystem() { return operatingSystem; }
+    public void setOperatingSystem(String os) { this.operatingSystem = os; }
+    
+    public int getRamGB() { return ramGB; }
+    public void setRamGB(int ramGB) { this.ramGB = ramGB; }
+    
+    public int getCpuCores() { return cpuCores; }
+    public void setCpuCores(int cpuCores) { this.cpuCores = cpuCores; }
+    
+    public int getDiskSizeGB() { return diskSizeGB; }
+    public void setDiskSizeGB(int diskSizeGB) { this.diskSizeGB = diskSizeGB; }
+    
+    public String getIsoPath() { return isoPath; }
+    public void setIsoPath(String isoPath) { this.isoPath = isoPath; }
+}
